@@ -1,0 +1,71 @@
+.form-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.submit-btn {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #74d4ec;
+  border-radius: 10px;
+}
+
+.submitted-data h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
